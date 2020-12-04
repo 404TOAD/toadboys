@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+body {
+  background-color: rgb(38, 39, 48);
+  overflow-x:hidden;
+  width: 100vw;
+  right: 0px;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  position: fixed;
+  z-index: -1;
+}
+*::-webkit-scrollbar-track {
+  background: rgb(255, 59, 59);
+    z-index: -1;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(51, 50, 65);
+  border: 3px solid rgb(255, 59, 59);
+    z-index: -1;
+}
+h1 {
+  font-family: "Epilogue";
+  color: rgb(255, 255, 255);
+  font-size: 5vw;
+  margin-top: 10vw;
+}
+h3 {
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-size: 1.75vw;
+  margin-top: 1vw;
+}
+p {
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-size: 0.85vw;
+  margin-top: 15vw;
+  padding-left:10%;
+  padding-right:10%;
+}
+p code {
+  color: rgb(255, 255, 255);
+  font-size: 0.85vw;
+}
+p a {
+  font-family: "Lora";
+  color: rgb(255, 255, 255);
+  font-size: 0.85vw;
+  text-decoration: none;
+}
+p a:hover {
+  font-family: "Lora";
+  color: rgb(255, 255, 255);
+  font-size: 0.85vw;
+}
+a img {
+  color: rgb(255, 255, 255);
+  width: 30px;
+  margin-top: -5px;
+  height: auto;
+}
+
+.section {
+  text-align: center;
+  margin-top: 5vw;
+}
+
+ul {
+  z-index: 10;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(51, 50, 65);
+  position: fixed;
+  top: 0vw;
+  right: 0px;
+  height: 45px;
+  width: 100vw;
+}
+li {
+  float: left;
+  left: 0px;
+}
+.left li {
+  float: left;
+  left: 0px;
+}
+.right li {
+  float: right;
+  right: 0px;
+}
+
+.a li a:hover {
+  color: rgb(255, 59, 59);
+}
+li a {
+  display: block;
+  text-align: center;
+  font-size: 22.5px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left: 15px;
+  text-decoration: none;
+  font-family: "Epilogue";
+}
+li p .time {
+  display: block;
+  text-align: center;
+  font-size: 22.5px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  margin-left: 15px;
+  text-decoration: none;
+  font-family: "Epilogue";
+}
+.right li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 22.5px;
+  margin-top: 10px;
+  margin-right: 15px;
+  text-decoration: none;
+  font-family: "Epilogue";
+}
+.box {
+  background-color: rgb(51, 50, 65);
+  width: 40vw;
+  margin: auto;
+  padding: 15px;
+  margin-top: 2vw;
+  height: 30vw;
+  float: center;
+}
+.box p {
+  color: rgb(255, 255, 255);
+  display: block;
+  margin-top: 25vw;
+  float: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2vw;
+  font-family: "Epilogue";
+  font-weight: 800;
+}
+a {
+  text-decoration: none;
+}
+.box p:hover {
+  color: rgb(255, 59, 59);
+}
+.box img {
+  float: left;
+  width: 100%;
+  margin-top: 0vw;
+}
